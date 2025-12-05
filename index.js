@@ -18,7 +18,7 @@ const client = new Client({
   ],
 });
 
-// ====== ADMIN IDS (can use !add...) ======
+// ====== ADMIN IDS (can use !add...) =====
 const ADMINS = ["484424098164768773"];
 
 // ====== USERS WITH 10s COOLDOWN ======
@@ -213,3 +213,4 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(process.env.BOT_TOKEN);
+
